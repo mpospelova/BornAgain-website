@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reflectometry on BornAgain</title>
+    <link>https://www.bornagainproject.org/documentation/sample-models/reflectometry/</link>
+    <description>Recent content in Reflectometry on BornAgain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.bornagainproject.org/documentation/sample-models/reflectometry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simulation with a rough sample</title>
+      <link>https://www.bornagainproject.org/documentation/sample-models/reflectometry/specular-simulation-with-roughness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bornagainproject.org/documentation/sample-models/reflectometry/specular-simulation-with-roughness/</guid>
+      <description>Specular simulation with a rough sample This example demonstrates how to compute reflected signal from a multilayered sample with surface roughness. All the experiment layout is exactly the same as the one described in reflectometry tutorial, but now all the layers (except the ambient media) have roughness on the top surface. The roughness is characterized by root-mean-square deviation from the mean surface position $\sigma = 1$ nm.
+  Real-space model</description>
+    </item>
+    
+    <item>
+      <title>Footprint correction</title>
+      <link>https://www.bornagainproject.org/documentation/sample-models/reflectometry/footprint-correction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bornagainproject.org/documentation/sample-models/reflectometry/footprint-correction/</guid>
+      <description>Specular simulation with a footprint correction This example demonstrates taking into account the beam footprint correction in specular simulations.
+Footprint effect originates from non-infinite sizes of beam and sample. Then at small incident angles $\alpha_i$ the beam irradiates an area bigger than the area of the sample. Exact footprint impact depends on the ratio between the widths of beam and sample as well as on the shape of the beam.</description>
+    </item>
+    
+    <item>
+      <title>Beam divergence</title>
+      <link>https://www.bornagainproject.org/documentation/sample-models/reflectometry/beam-divergence/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bornagainproject.org/documentation/sample-models/reflectometry/beam-divergence/</guid>
+      <description>Beam divergence in specular simulations This example demonstrates beam divergence effects in reflectivity computations. All simulation parameters (except for ones related to beam divergence itself) coincide with those defined in reflectometry simulation tutorial.
+In application to specular simulation, the observed intensity picture can be affected by divergence either in beam wavelength or incident angle.
+  Intensity image
+    In this example the following parameters related to the beam divergence were set to the simulation:</description>
+    </item>
+    
+  </channel>
+</rss>

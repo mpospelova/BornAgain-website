@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Basic simulation tutorial on BornAgain</title>
+    <link>https://www.bornagainproject.org/documentation/working-with-python/basic-simulation-tutorial/</link>
+    <description>Recent content in Basic simulation tutorial on BornAgain</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://www.bornagainproject.org/documentation/working-with-python/basic-simulation-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GISAS</title>
+      <link>https://www.bornagainproject.org/documentation/working-with-python/basic-simulation-tutorial/gisas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bornagainproject.org/documentation/working-with-python/basic-simulation-tutorial/gisas/</guid>
+      <description>GISAS simulation tutorial A simulation of GISAS using BornAgain consists of following steps:
+ define materials by specifying name and refractive index define layers by specifying thickness, roughness, material define embedded particles by specifying shape, size, constituting material, interference function include particles in layers, specifying density, position, orientation assemble a multilayered sample specify input beam and detector characteristics run the simulation save the simulated detector image  In this example, we simulate the scattering from a mixture of cylinder and prism nanoparticles without any interference between them.</description>
+    </item>
+    
+    <item>
+      <title>Reflectometry</title>
+      <link>https://www.bornagainproject.org/documentation/working-with-python/basic-simulation-tutorial/reflectometry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bornagainproject.org/documentation/working-with-python/basic-simulation-tutorial/reflectometry/</guid>
+      <description>Specular simulation tutorial In this example, we will simulate specular signal from a sample with 10 double layers of Ti-Ni on silicon substrate in vacuum environment.
+Importing the Python modules We start by importing the BornAgain Python API and alias it as ba. Then we import some often used unit designations from BornAgain.
+import bornagain as ba from bornagain import deg, angstrom Sample definition Our sample will consist of (in the order from top to bottom):</description>
+    </item>
+    
+    <item>
+      <title>Depth-probe</title>
+      <link>https://www.bornagainproject.org/documentation/working-with-python/basic-simulation-tutorial/depth-probe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.bornagainproject.org/documentation/working-with-python/basic-simulation-tutorial/depth-probe/</guid>
+      <description>Depth-probe simulation tutorial Depth-probe simulation is an auxiliary simulation type, which helps to visualize the total intensity in dependence on the beam incidence angle and the position in the sample.
+Here we will consider the intensity map produced by a neutron resonator, composed of one Ti/Pt bilayer.
+Used conventions Depth-probe simulation takes into account the position across the surface of the sample. This position will be denoted as &amp;ldquo;z&amp;rdquo; and measured in nanometers.</description>
+    </item>
+    
+  </channel>
+</rss>
